@@ -1,0 +1,49 @@
+    *
+    {
+        background-color: magenta;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h1 {
+    color:darkgreen;
+    margin-left: 70px;
+    }
+    form li {
+    list-style: none;
+    margin-bottom: 5px;
+    }
+    
+    form ul li label{
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: center;
+    margin-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:14px;
+    }
+    
+    form ul li input, select, span {
+    float: left;
+    margin-bottom: 10px;
+    }
+    
+    form textarea {
+    float: left;
+    width: 350px;
+    height: 150px;
+    }
+    
+    [type="submit"] {
+    clear: left;
+    margin: 20px 0 0 230px;
+    font-size:18px
+    }
+    input:invalid{
+        border: 2px dashed red;
+    }
+    input:valid{
+        border:2px solid black;
+    }
+    input:invalid:required{
+        background-image: linear-gradient(to right, pink,lightgreen);
+    }
